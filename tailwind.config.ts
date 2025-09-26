@@ -48,17 +48,17 @@ export default {
           DEFAULT: "hsl(var(--success))",
           foreground: "hsl(var(--success-foreground))",
         },
-        trending: {
-          DEFAULT: "hsl(var(--trending))",
-          foreground: "hsl(var(--trending-foreground))",
+        // Neon Control Center Colors
+        neon: {
+          cyan: "hsl(var(--neon-cyan))",
+          purple: "hsl(var(--neon-purple))",
+          green: "hsl(var(--neon-green))",
+          orange: "hsl(var(--neon-orange))",
+          red: "hsl(var(--neon-red))",
         },
-        spike: {
-          DEFAULT: "hsl(var(--spike))",
-          foreground: "hsl(var(--spike-foreground))",
-        },
-        alert: {
-          DEFAULT: "hsl(var(--alert))",
-          glow: "hsl(var(--alert-glow))",
+        glass: {
+          DEFAULT: "hsl(var(--glass))",
+          border: "hsl(var(--glass-border))",
         },
         popover: {
           DEFAULT: "hsl(var(--popover))",
@@ -80,18 +80,30 @@ export default {
         },
       },
       backgroundImage: {
-        'gradient-primary': 'var(--gradient-primary)',
-        'gradient-trending': 'var(--gradient-trending)',
+        'gradient-cyber': 'var(--gradient-cyber)',
+        'gradient-alert': 'var(--gradient-alert)',
         'gradient-success': 'var(--gradient-success)',
+        'gradient-glass': 'var(--gradient-glass)',
       },
       boxShadow: {
-        'glow': 'var(--shadow-glow)',
-        'alert': 'var(--shadow-alert)',
-        'card': 'var(--shadow-card)',
+        'glow-cyan': 'var(--glow-cyan)',
+        'glow-purple': 'var(--glow-purple)',
+        'glow-green': 'var(--glow-green)',
+        'glow-orange': 'var(--glow-orange)',
+        'glass': '0 8px 32px 0 rgba(31, 38, 135, 0.37)',
       },
-      transitionTimingFunction: {
-        'smooth': 'var(--transition-smooth)',
-        'bounce': 'var(--transition-bounce)',
+      backdropBlur: {
+        'glass': '12px',
+      },
+      animation: {
+        'pulse-fast': 'var(--pulse-fast)',
+        'slide-in': 'slideIn 0.4s cubic-bezier(0.23, 1, 0.32, 1)',
+      },
+      keyframes: {
+        slideIn: {
+          '0%': { opacity: '0', transform: 'translateX(-20px)' },
+          '100%': { opacity: '1', transform: 'translateX(0)' },
+        },
       },
       borderRadius: {
         lg: "var(--radius)",
