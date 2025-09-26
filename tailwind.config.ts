@@ -22,6 +22,7 @@ export default {
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
+          glow: "hsl(var(--primary-glow))",
         },
         secondary: {
           DEFAULT: "hsl(var(--secondary))",
@@ -38,6 +39,26 @@ export default {
         accent: {
           DEFAULT: "hsl(var(--accent))",
           foreground: "hsl(var(--accent-foreground))",
+        },
+        warning: {
+          DEFAULT: "hsl(var(--warning))",
+          foreground: "hsl(var(--warning-foreground))",
+        },
+        success: {
+          DEFAULT: "hsl(var(--success))",
+          foreground: "hsl(var(--success-foreground))",
+        },
+        trending: {
+          DEFAULT: "hsl(var(--trending))",
+          foreground: "hsl(var(--trending-foreground))",
+        },
+        spike: {
+          DEFAULT: "hsl(var(--spike))",
+          foreground: "hsl(var(--spike-foreground))",
+        },
+        alert: {
+          DEFAULT: "hsl(var(--alert))",
+          glow: "hsl(var(--alert-glow))",
         },
         popover: {
           DEFAULT: "hsl(var(--popover))",
@@ -57,6 +78,20 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+      },
+      backgroundImage: {
+        'gradient-primary': 'var(--gradient-primary)',
+        'gradient-trending': 'var(--gradient-trending)',
+        'gradient-success': 'var(--gradient-success)',
+      },
+      boxShadow: {
+        'glow': 'var(--shadow-glow)',
+        'alert': 'var(--shadow-alert)',
+        'card': 'var(--shadow-card)',
+      },
+      transitionTimingFunction: {
+        'smooth': 'var(--transition-smooth)',
+        'bounce': 'var(--transition-bounce)',
       },
       borderRadius: {
         lg: "var(--radius)",
