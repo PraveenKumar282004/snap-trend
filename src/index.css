@@ -2,70 +2,70 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Advanced Control Center Design System */
+/* Modern Analytics Dashboard Design System */
 
 @layer base {
   :root {
-    --background: 240 10% 3.9%;
-    --foreground: 0 0% 98%;
+    --background: 216 28% 7%;
+    --foreground: 215 20% 95%;
 
-    --card: 240 10% 7%;
-    --card-foreground: 0 0% 95%;
+    --card: 216 28% 9%;
+    --card-foreground: 215 20% 92%;
 
-    --popover: 240 10% 7%;
-    --popover-foreground: 0 0% 95%;
+    --popover: 216 28% 9%;
+    --popover-foreground: 215 20% 92%;
 
-    --primary: 217.2 91.2% 59.8%;
-    --primary-foreground: 240 10% 3.9%;
-    --primary-glow: 217.2 91.2% 70%;
+    --primary: 265 85% 58%;
+    --primary-foreground: 216 28% 7%;
+    --primary-glow: 265 85% 68%;
 
-    --secondary: 240 3.7% 15.9%;
-    --secondary-foreground: 0 0% 98%;
+    --secondary: 216 19% 16%;
+    --secondary-foreground: 215 20% 95%;
 
-    --muted: 240 3.7% 15.9%;
-    --muted-foreground: 240 5% 64.9%;
+    --muted: 216 19% 16%;
+    --muted-foreground: 215 13% 65%;
 
-    --accent: 142 76% 36%;
-    --accent-foreground: 0 0% 98%;
+    --accent: 195 90% 55%;
+    --accent-foreground: 216 28% 7%;
 
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 0 0% 98%;
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 215 20% 95%;
 
-    --warning: 38 92% 50%;
-    --warning-foreground: 240 10% 3.9%;
+    --warning: 39 96% 55%;
+    --warning-foreground: 216 28% 7%;
 
-    --success: 142 76% 36%;
-    --success-foreground: 0 0% 98%;
+    --success: 160 84% 39%;
+    --success-foreground: 215 20% 95%;
 
-    --border: 240 3.7% 15.9%;
-    --input: 240 3.7% 15.9%;
-    --ring: 217.2 91.2% 59.8%;
+    --border: 216 19% 16%;
+    --input: 216 19% 16%;
+    --ring: 265 85% 58%;
 
-    /* Control Center Tokens */
-    --neon-cyan: 180 100% 50%;
-    --neon-purple: 270 100% 70%;
-    --neon-green: 120 100% 50%;
-    --neon-orange: 30 100% 60%;
-    --neon-red: 0 100% 60%;
+    /* Modern Analytics Tokens */
+    --electric-blue: 220 100% 60%;
+    --cosmic-purple: 265 85% 65%;
+    --aurora-green: 160 84% 45%;
+    --solar-orange: 35 91% 58%;
+    --crimson-red: 348 83% 58%;
     
-    --glass: 240 10% 7% / 0.8;
-    --glass-border: 240 3.7% 25% / 0.5;
+    --glass: 216 28% 9% / 0.85;
+    --glass-border: 216 19% 25% / 0.6;
     
-    /* Advanced Gradients */
-    --gradient-cyber: linear-gradient(135deg, hsl(var(--neon-cyan)), hsl(var(--neon-purple)));
-    --gradient-alert: linear-gradient(135deg, hsl(var(--neon-orange)), hsl(var(--neon-red)));
-    --gradient-success: linear-gradient(135deg, hsl(var(--neon-green)), hsl(var(--accent)));
-    --gradient-glass: linear-gradient(135deg, hsl(var(--glass)), hsl(240 10% 10% / 0.6));
+    /* Sophisticated Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(var(--electric-blue)), hsl(var(--cosmic-purple)));
+    --gradient-accent: linear-gradient(135deg, hsl(var(--aurora-green)), hsl(var(--accent)));
+    --gradient-warning: linear-gradient(135deg, hsl(var(--solar-orange)), hsl(var(--crimson-red)));
+    --gradient-glass: linear-gradient(135deg, hsl(var(--glass)), hsl(216 28% 12% / 0.7));
     
-    /* Neon Effects */
-    --glow-cyan: 0 0 20px hsl(var(--neon-cyan) / 0.5), 0 0 40px hsl(var(--neon-cyan) / 0.3);
-    --glow-purple: 0 0 20px hsl(var(--neon-purple) / 0.5), 0 0 40px hsl(var(--neon-purple) / 0.3);
-    --glow-green: 0 0 20px hsl(var(--neon-green) / 0.5), 0 0 40px hsl(var(--neon-green) / 0.3);
-    --glow-orange: 0 0 20px hsl(var(--neon-orange) / 0.5), 0 0 40px hsl(var(--neon-orange) / 0.3);
+    /* Elegant Glows */
+    --glow-blue: 0 0 30px hsl(var(--electric-blue) / 0.4), 0 0 60px hsl(var(--electric-blue) / 0.2);
+    --glow-purple: 0 0 30px hsl(var(--cosmic-purple) / 0.4), 0 0 60px hsl(var(--cosmic-purple) / 0.2);
+    --glow-green: 0 0 30px hsl(var(--aurora-green) / 0.4), 0 0 60px hsl(var(--aurora-green) / 0.2);
+    --glow-orange: 0 0 30px hsl(var(--solar-orange) / 0.4), 0 0 60px hsl(var(--solar-orange) / 0.2);
     
-    /* Control Animations */
-    --pulse-fast: pulse 1.5s cubic-bezier(0.4, 0, 0.6, 1) infinite;
-    --slide-smooth: all 0.4s cubic-bezier(0.23, 1, 0.32, 1);
+    /* Smooth Animations */
+    --pulse-elegant: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+    --transition-smooth: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 
     --radius: 0.5rem;
 

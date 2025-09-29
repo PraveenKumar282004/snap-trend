@@ -48,13 +48,13 @@ export default {
           DEFAULT: "hsl(var(--success))",
           foreground: "hsl(var(--success-foreground))",
         },
-        // Neon Control Center Colors
-        neon: {
-          cyan: "hsl(var(--neon-cyan))",
-          purple: "hsl(var(--neon-purple))",
-          green: "hsl(var(--neon-green))",
-          orange: "hsl(var(--neon-orange))",
-          red: "hsl(var(--neon-red))",
+        // Modern Theme Colors
+        electric: {
+          blue: "hsl(var(--electric-blue))",
+          purple: "hsl(var(--cosmic-purple))",
+          green: "hsl(var(--aurora-green))",
+          orange: "hsl(var(--solar-orange))",
+          red: "hsl(var(--crimson-red))",
         },
         glass: {
           DEFAULT: "hsl(var(--glass))",
@@ -80,24 +80,24 @@ export default {
         },
       },
       backgroundImage: {
-        'gradient-cyber': 'var(--gradient-cyber)',
-        'gradient-alert': 'var(--gradient-alert)',
-        'gradient-success': 'var(--gradient-success)',
+        'gradient-primary': 'var(--gradient-primary)',
+        'gradient-accent': 'var(--gradient-accent)',
+        'gradient-warning': 'var(--gradient-warning)',
         'gradient-glass': 'var(--gradient-glass)',
       },
       boxShadow: {
-        'glow-cyan': 'var(--glow-cyan)',
+        'glow-blue': 'var(--glow-blue)',
         'glow-purple': 'var(--glow-purple)',
         'glow-green': 'var(--glow-green)',
         'glow-orange': 'var(--glow-orange)',
-        'glass': '0 8px 32px 0 rgba(31, 38, 135, 0.37)',
+        'glass': '0 10px 40px 0 rgba(20, 30, 70, 0.4)',
       },
       backdropBlur: {
         'glass': '12px',
       },
       animation: {
-        'pulse-fast': 'var(--pulse-fast)',
-        'slide-in': 'slideIn 0.4s cubic-bezier(0.23, 1, 0.32, 1)',
+        'pulse-elegant': 'var(--pulse-elegant)',
+        'slide-in': 'slideIn 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94)',
       },
       keyframes: {
         slideIn: {
