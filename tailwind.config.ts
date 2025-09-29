@@ -48,13 +48,15 @@ export default {
           DEFAULT: "hsl(var(--success))",
           foreground: "hsl(var(--success-foreground))",
         },
-        // Modern Theme Colors
+        // Vibrant Theme Colors
         electric: {
           blue: "hsl(var(--electric-blue))",
           purple: "hsl(var(--cosmic-purple))",
           green: "hsl(var(--aurora-green))",
           orange: "hsl(var(--solar-orange))",
           red: "hsl(var(--crimson-red))",
+          pink: "hsl(var(--neon-pink))",
+          cyan: "hsl(var(--cyber-cyan))",
         },
         glass: {
           DEFAULT: "hsl(var(--glass))",
@@ -84,12 +86,15 @@ export default {
         'gradient-accent': 'var(--gradient-accent)',
         'gradient-warning': 'var(--gradient-warning)',
         'gradient-glass': 'var(--gradient-glass)',
+        'gradient-rainbow': 'var(--gradient-rainbow)',
       },
       boxShadow: {
         'glow-blue': 'var(--glow-blue)',
         'glow-purple': 'var(--glow-purple)',
         'glow-green': 'var(--glow-green)',
         'glow-orange': 'var(--glow-orange)',
+        'glow-pink': 'var(--glow-pink)',
+        'glow-cyan': 'var(--glow-cyan)',
         'glass': '0 10px 40px 0 rgba(20, 30, 70, 0.4)',
       },
       backdropBlur: {

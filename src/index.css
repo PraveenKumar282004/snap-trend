@@ -15,53 +15,58 @@
     --popover: 216 28% 9%;
     --popover-foreground: 215 20% 92%;
 
-    --primary: 265 85% 58%;
-    --primary-foreground: 216 28% 7%;
-    --primary-glow: 265 85% 68%;
+    --primary: 280 90% 65%;
+    --primary-foreground: 0 0% 100%;
+    --primary-glow: 280 95% 75%;
 
-    --secondary: 216 19% 16%;
-    --secondary-foreground: 215 20% 95%;
+    --secondary: 320 85% 60%;
+    --secondary-foreground: 0 0% 100%;
 
     --muted: 216 19% 16%;
-    --muted-foreground: 215 13% 65%;
+    --muted-foreground: 215 13% 70%;
 
-    --accent: 195 90% 55%;
-    --accent-foreground: 216 28% 7%;
+    --accent: 180 95% 55%;
+    --accent-foreground: 0 0% 100%;
 
-    --destructive: 0 72% 51%;
-    --destructive-foreground: 215 20% 95%;
+    --destructive: 0 85% 60%;
+    --destructive-foreground: 0 0% 100%;
 
-    --warning: 39 96% 55%;
+    --warning: 45 100% 60%;
     --warning-foreground: 216 28% 7%;
 
-    --success: 160 84% 39%;
-    --success-foreground: 215 20% 95%;
+    --success: 140 90% 50%;
+    --success-foreground: 0 0% 100%;
 
     --border: 216 19% 16%;
     --input: 216 19% 16%;
     --ring: 265 85% 58%;
 
-    /* Modern Analytics Tokens */
-    --electric-blue: 220 100% 60%;
-    --cosmic-purple: 265 85% 65%;
-    --aurora-green: 160 84% 45%;
-    --solar-orange: 35 91% 58%;
-    --crimson-red: 348 83% 58%;
+    /* Vibrant Analytics Tokens */
+    --electric-blue: 200 100% 65%;
+    --cosmic-purple: 280 90% 68%;
+    --aurora-green: 150 95% 55%;
+    --solar-orange: 30 100% 65%;
+    --crimson-red: 345 90% 65%;
+    --neon-pink: 330 95% 65%;
+    --cyber-cyan: 180 100% 60%;
     
     --glass: 216 28% 9% / 0.85;
     --glass-border: 216 19% 25% / 0.6;
     
-    /* Sophisticated Gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(var(--electric-blue)), hsl(var(--cosmic-purple)));
-    --gradient-accent: linear-gradient(135deg, hsl(var(--aurora-green)), hsl(var(--accent)));
+    /* Vibrant Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(var(--electric-blue)), hsl(var(--cosmic-purple)), hsl(var(--neon-pink)));
+    --gradient-accent: linear-gradient(135deg, hsl(var(--aurora-green)), hsl(var(--cyber-cyan)));
     --gradient-warning: linear-gradient(135deg, hsl(var(--solar-orange)), hsl(var(--crimson-red)));
     --gradient-glass: linear-gradient(135deg, hsl(var(--glass)), hsl(216 28% 12% / 0.7));
+    --gradient-rainbow: linear-gradient(90deg, hsl(var(--crimson-red)), hsl(var(--solar-orange)), hsl(var(--aurora-green)), hsl(var(--cyber-cyan)), hsl(var(--cosmic-purple)));
     
-    /* Elegant Glows */
-    --glow-blue: 0 0 30px hsl(var(--electric-blue) / 0.4), 0 0 60px hsl(var(--electric-blue) / 0.2);
-    --glow-purple: 0 0 30px hsl(var(--cosmic-purple) / 0.4), 0 0 60px hsl(var(--cosmic-purple) / 0.2);
-    --glow-green: 0 0 30px hsl(var(--aurora-green) / 0.4), 0 0 60px hsl(var(--aurora-green) / 0.2);
-    --glow-orange: 0 0 30px hsl(var(--solar-orange) / 0.4), 0 0 60px hsl(var(--solar-orange) / 0.2);
+    /* Vibrant Glows */
+    --glow-blue: 0 0 30px hsl(var(--electric-blue) / 0.6), 0 0 60px hsl(var(--electric-blue) / 0.3);
+    --glow-purple: 0 0 30px hsl(var(--cosmic-purple) / 0.6), 0 0 60px hsl(var(--cosmic-purple) / 0.3);
+    --glow-green: 0 0 30px hsl(var(--aurora-green) / 0.6), 0 0 60px hsl(var(--aurora-green) / 0.3);
+    --glow-orange: 0 0 30px hsl(var(--solar-orange) / 0.6), 0 0 60px hsl(var(--solar-orange) / 0.3);
+    --glow-pink: 0 0 30px hsl(var(--neon-pink) / 0.6), 0 0 60px hsl(var(--neon-pink) / 0.3);
+    --glow-cyan: 0 0 30px hsl(var(--cyber-cyan) / 0.6), 0 0 60px hsl(var(--cyber-cyan) / 0.3);
     
     /* Smooth Animations */
     --pulse-elegant: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
